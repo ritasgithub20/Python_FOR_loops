@@ -1,0 +1,14 @@
+def nr_prim(nr):
+    if nr > 1:
+        for i in range(2, nr//2):
+            if (nr % i) == 0:
+                print('The number ', nr, 'is not prime.')
+                break
+        else:
+            print('The number ', nr, 'is prime.')
+    else:
+        print('The number ', nr, 'is not prime.')
+
+if __name__ == '__main__':
+    print('My number is: ')
+    nr_prim(int(input()))
