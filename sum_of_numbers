@@ -1,0 +1,11 @@
+def mySum():
+    import random
+    myList = []
+    for i in range(0,3):
+        myList.append(random.randint(0,3))
+    print(myList)
+    suma = sum(myList)
+    print('The sum is : ', suma)
+
+if __name__ == '__main__':
+    mySum()
