@@ -1,0 +1,8 @@
+import random
+myList = []
+for i in range(0,10):
+    n = random.randint(1,30)
+    myList.append(n)
+print(myList)
+myList.sort()
+print("The minimum value in my list is: ", myList[0])
